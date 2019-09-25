@@ -23,6 +23,18 @@ p {
   font-weight: bold;
 }
 
+
+/* ########--- Color Sections ---######## */
+
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;      /* mudar a fonte color da nossa secção */
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* ########--- Navigation Bar ---######## */
 .navbar {
   padding: 0 0 4.5rem;      /* para o tindog ficar alinhado com o nosso texto e botões */
@@ -49,13 +61,11 @@ p {
 
 /* ########--- Title Section ---######## */
 #title {
-  background-color: #ff4c68;
-  color: #fff;               /* mudar a fonte color da nossa secção */
   text-align: left;         /* devido ao text-align: center no body */
 }
 
 #title .container-fluid {
-  padding: 3% 7% 15%;     
+  padding: 3% 7% 15%;
 }
 
 .title-image {
@@ -66,7 +76,6 @@ p {
 
 /* ########--- Features section ---######## */
 #features {
-  background-color: #fff;
   position: relative;
   z-index: 1;    /* o features senta em cima do title image e assim conseguimos que o telemovel fique parte de fora */
 }
@@ -87,7 +96,6 @@ p {
 /* ########--- Testimonials Section ---######## */
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-heading-2-text {
@@ -137,11 +145,6 @@ p {
 }
 
 /* ########--- Call to Action Section ---######## */
-#cta {
-  background-color: #ff4c68;
-  color: #fff;           /* white text */
-}
-
 .cta-heading {
   font-family: "Montserrat-Black";
   font-size: 3rem;
